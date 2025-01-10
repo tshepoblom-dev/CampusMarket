@@ -1,0 +1,223 @@
+.dd {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    list-style: none;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .dd-list {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .dd-list .dd-list {
+    padding-left: 30px;
+  }
+  .dd-item,
+  .dd-empty,
+  .dd-placeholder {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 50px;
+    font-size: 13px;
+    line-height: 25px;
+
+  }
+
+  .dd-dragel,
+  .dd-empty,
+  .dd-placeholder {
+    cursor: grab;
+    /* box-shadow: 0px 0px 1.2px 1.2px rgba(0,0,0,.1); */
+    margin: 0px;
+  }
+
+  .dd-handle {
+    background: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #333;
+    display: block;
+    font-weight: 700;
+    height: 50px;
+    margin: 5px 0;
+    padding: 14px 25px;
+    text-decoration: none;
+     transition:  all ease 0.3s;
+     box-shadow: 0px 7px 7px 2px rgba(225,225,225,.6);
+  }
+
+  #accordionMenu input[type=checkbox]:checked + label:after, #accordionMenu input[type=checkbox] + label:before,
+  #editMenuItemModal input[type=checkbox]:checked + label:after, #editMenuItemModal input[type=checkbox] + label:before {
+    display: none;
+  }
+
+
+  .dd-handle:hover {
+    color: #2ea8e5;
+    background: #fff;
+    cursor: grab;
+  }
+
+  .dd-item > button {
+    position: relative;
+    cursor: pointer;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 7px 0;
+    padding: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    background: transparent;
+    font-size: 21px;
+    line-height: 1;
+    text-align: center;
+    font-weight: bold;
+    color: #00bcd4;
+  }
+  .dd-item > button:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+  }
+  .dd-item > button.dd-expand:before {
+    content: '+';
+  }
+  .dd-item > button.dd-collapse:before {
+    content: '-';
+  }
+  .dd-expand {
+    display: none;
+  }
+  .dd-collapsed .dd-list,
+  .dd-collapsed .dd-collapse {
+    display: none;
+  }
+  .dd-collapsed .dd-expand {
+    display: block;
+  }
+  .dd-empty,
+  .dd-placeholder {
+    margin: 6px 0;
+    padding: 0;
+    min-height: 50px;
+    background: rgba(225,225,225,.3);
+    border: 1px dashed #b6bcbf;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+
+  }
+  .dd-empty {
+    border: 1px dashed #bbb;
+    min-height: 100px;
+    background-color: rgba(225,225,225,.5) ;
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    box-shadow: 0px 7px 7px 2px rgba(225,225,225,.6);
+  }
+  .dd-dragel {
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+    height: 50px ;
+
+  }
+  .dd-dragel > .dd-item .dd-handle {
+    margin-top: 0;
+  }
+
+
+
+  /* .dd-dragel .dd-handle {
+     box-shadow: 0px 0px 1px 1px rgba(0,0,0,.2);
+
+  } */
+
+  .dd-nochildren .dd-placeholder {
+    display: none;
+  }
+  .dd .btn,
+  .dd-dragel .dd-item .dd-handle .btn,
+  .dd-dragel  .dd-item  .btn {
+    padding: 5px 10px;
+
+  }
+  .dd .btn i, .btn:not(.btn-just-icon):not(.btn-fab) .fa {
+      font-size: 1rem !important;
+  }
+
+
+
+
+  .action-area {
+      position: absolute;
+      right: 9px;
+      z-index: 11;
+      top: 6px;
+      bottom: 0;
+      margin: auto;
+  }
+  .dd-dragel .dd-handle .btn .material-icons, .btn:not(.btn-just-icon):not(.btn-fab) .fa {
+      font-size: 1.5rem !important;
+  }
+
+  .dd-dragel .dd-item .btn .material-icons, .btn:not(.btn-just-icon):not(.btn-fab) .fa {
+      font-size: 1.5rem !important;
+  }
+
+
+  .cx-menu-builder {
+      box-shadow: 0px 2px 2px 2px rgba(225,225,225,.6);
+      background: #fff;
+      padding: 27px 29px;
+  }
+
+  .item-url {
+      font-size: 13px;
+      color: #777;
+      margin-left: 2px;
+  }
+
+  ul {
+    list-style: none;
+    min-width: 260px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .menu-modal .modal-header{
+    padding: 11px 24px;
+
+  }
+
+
+  .menu-modal .modal-header .btn-close {
+    box-sizing: content-box;
+    width: .6em;
+    height: 0.6em;
+
+}
+
+
+.page-menu-item-list input[type=checkbox] + label:before
+{
+
+    display: none;
+
+}
+

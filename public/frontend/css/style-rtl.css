@@ -1,0 +1,260 @@
+header.style-1 {
+    padding: 0px 0px 0px 60px;
+}
+header.style-1 .nav-right .hotline {
+    margin-left: 40px;
+    margin-right: 0;
+}
+header.style-1 .nav-right .search-btn {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.topbar-left h6 {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.topbar-right .topbar-right-list li > img {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.topbar-right .topbar-right-list li .topbar-sublist li img {
+    margin-right: 10px;
+    margin-left: 0;
+}
+header.style-1 .nav-right .hotline .hotline-icon {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+header.style-1 .main-menu .menu-list > li.menu-item-has-children .dropdown-icon {
+    right: unset;
+    left: 0;
+}
+header.style-1 .main-menu .menu-list > li .submenu > li a:last-child {
+    text-align: start;
+}
+header.style-1 .main-menu .menu-list > li.menu-item-has-children {
+    padding-right: 0;
+    padding-left: 20px;
+}
+header.style-1 .main-menu .menu-list > li.menu-item-has-children::after {
+    left: 0px;
+    right: unset;
+}
+header.style-1 .main-menu .menu-list > li .submenu {
+    left: unset;
+    right: 0px;
+}
+.auction-card1.style-2 .author-area {
+    left: unset;
+    right: 15px;
+}
+.auction-card1 .author-area .author-name {
+    padding: 6px 44px 6px 22px;
+    margin-right: -27px;
+    margin-left: unset;
+    transform: scaleX(0.1);
+    transform-origin: right;
+}
+.auction-card1.style-2 .product-type {
+    right: unset;
+    left: 0;
+    border-radius: 0 5px 5px 0;
+}
+.auction-card1 .share-area .social-icons {
+    transform-origin: left;
+}
+.c-feature-card1 .author-area2 {
+    right: unset;
+    left: 20px;
+}
+.c-feature-card1 .author-area2 .author-name {
+    padding: 6px 22px 6px 44px;
+    margin-right: unset;
+    margin-left: -28px;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.c-feature-card1 .c-feature-content .auction-card-bttm .share-area .social-icons {
+    transform-origin: left;
+}
+.c-feature-card1 .c-feature-content .auction-card-bttm .share-area:hover .social-icons li {
+    margin-left: 8px;
+    margin-right: unset;
+}
+.testimonial-single .quote-icon {
+    right: unset;
+    left: 20px;
+}
+.single-blog-style1 .blog-img .blog-date {
+    left: unset;
+    border-radius: 20px 0 0 20px;
+    right: 0;
+}
+.single-blog-style1 .blog-img .blog-date .bi {
+    margin-left: 10px;
+    margin-right: unset;
+}
+.single-blog-style1 .blog-meta .comment img {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.single-blog-style1 .blog-meta .author img {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.single-blog-style1 .blog-meta .author {
+    margin-left: 25px;
+    margin-right: 0;
+}
+.counter-single .counter-icon {
+    margin-left: 15px;
+    margin-right: unset;
+}
+ul.recent-feed-list .single-feed .feed-img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+footer .footer-bottom p {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.breadcumb-img {
+    right: unset;
+    left: 0;
+}
+.single-feature .sn {
+    right: 30px;
+    left: unset;
+}
+.sidebar-widget-title span::before {
+    right: 55px;
+    left: unset;
+}
+.sidebar-widget-title span::after {
+    right: 65px;
+    left: unset;
+}
+.product-sidebar .range-wrap .noUi-target {
+    direction: ltr;
+}
+.auction-card1 .share-area .social-icons {
+    transform-origin: left;
+}
+.product-page .auction-card1 .share-area .social-icons {
+    left: 50px;
+    right: unset;
+}
+.auction-card1 .share-area:hover .social-icons li {
+    margin-right: unset;
+    margin-left: 8px;
+}
+.product-sidebar .checkbox-container li .containerss {
+    padding-left: unset;
+    padding-right: 28px;
+}
+.product-sidebar .checkbox-container li .containerss .checkmark {
+    left: unset;
+    right: 0;
+}
+.product-sidebar ul.recent-post .single-post .post-img {
+    margin-left: 15px;
+    margin-right: unset;
+}
+
+.merchant-card .merchant-image-and-name .marchant-img .varify-batch {
+    left: 0;
+    right: unset;
+}
+.product-details-right .bid-form .form-title p::before {
+    left: unset;
+    right: 0;
+}
+.product-details-right .bid-form .form-title p::after {
+    left: unset;
+    right: 56px;
+}
+.product-details-right .bid-form .form-inner input[type=text], .product-details-right .bid-form .form-inner input[type=number] {
+    direction: rtl;
+}
+.single-blog-style1 .single-shop-card .profile-img img {
+    left: 20px;
+    right: unset;
+}
+.faq-wrap .accordion-button::after {
+    right: unset;
+    left: 22px;
+}
+.faq-section .section-title3{
+    text-align: right;
+}
+ul.recent-post .single-post .post-img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+ul.category-list li a span:first-child {
+    padding-left: 0;
+    padding-right: 20px;
+}
+ul.category-list li a span:first-child::before {
+    left: unset;
+    right: 0;
+}
+.blog-details-single .blog-meta a img {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.blog-details-single .blog-title {
+    text-align: start;
+}
+.blog-widget-title span::before {
+    left: unset;
+    right: 55px;
+}
+.blog-widget-title span::after {
+    left: unset;
+    right: 65px;
+}
+.comment-box .author img {
+    margin-right: unset;
+    margin-left: 15px;
+}
+.comment-box .author span.commnt-date {
+    margin-right: 10px;
+    margin-left: unset;
+}
+.contact-signle .icon {
+    margin-right: unset;
+    margin-left: 15px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-right: 0;
+}
+
+
+
+
+@media (max-width: 991px){
+    header.style-1 {
+        padding: 0px 0px 0px 30px;
+        top: 0;
+    }
+    header.style-1 .main-menu.show-menu {
+        left: unset;
+        right: 0;
+        border-left: 1px solid #EEEEEE;
+        border-right: unset;
+    }
+    header.style-1 .main-menu {
+        right: -100%;
+        left: unset;
+    }
+    .mobile-menu-btn {
+        margin-right: 25px;
+        margin-left: unset;
+    }
+}
